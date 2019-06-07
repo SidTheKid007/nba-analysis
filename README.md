@@ -1,4 +1,9 @@
 # nba-analysis
+
+<p align="center">
+  <img width="600" height="200" src="https://pdc.princeton.edu/sites/pdc/files/events/new-nba-logo-1.png">
+</p>
+
 This project attempts to analyze and visualize NBA statistics on a variety of different levels with the assistance of machine learning in python.
 ## 2018-2019 Player Stats
 The first file that is posted here provides a statistical overview of all the NBA players that suited up in the 2018-2019 NBA season, and it attempted to find any similarities between them. Fist, the data had to be properly retrieved and cleaned, and this was done via the assistance of BeautifulSoup(for retriving the data from the web), and Pandas(for clean/easy organization). Next, a correlation matrix was constructed to see how strongly certain statistics were correlated to other statistics this season. Finally, dimentional reduction and three different methods of data clustering (K-Means, Agglomerative, and Affinity Propagation) were applied to get a better understanding of what other players would be classified as similar to a specific player.
